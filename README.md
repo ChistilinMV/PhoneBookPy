@@ -4,7 +4,7 @@
 
 ***Решение:*** В качестве хранилища данных была выбрана СУБД SQLite3 с двумя связными таблицами Names и Phones, содержащих соответственно имена (легко масштабируется для хранения фамилий, отчеств, дней рождений) и телефоны. К одному уникальному значению таблицы Names может быть привязано неограниченное кол-во телефонов.
 
-### <code>[Реализация алгоритма на С#](https://github.com/ChistilinMV/spec_select/tree/main/find_3char)</code>
+### <code>[Дамп базы данных](https://github.com/ChistilinMV/PhoneBookPy/blob/main/phonebook_backup4.sql)</code>
 
 ![блок-схема алгоритма](./media/phonebook_db.png)
 
